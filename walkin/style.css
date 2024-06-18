@@ -1,0 +1,179 @@
+body {
+    /* background-color: #f2f2f2; */
+    font-family: 'Sarabun', Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* เพิ่มสไตล์ให้กับเอลิเมนต์ที่มีคลาส .container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    box-sizing: border-box;
+    border: 1px solid #cfcece; /* เพิ่มเส้นขอบ */
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */    
+}
+
+/* .selector-for-some-widget {
+    box-sizing: content-box;
+} */
+
+.container-login {
+    width: 450px;  
+}
+
+.container-form {
+    width: 550px;
+}
+
+.container-cam {
+    width: 650px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+    border: #E0E0E0 0px solid;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #f1ffff; /* เพิ่มสีพื้นหลัง */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #101010;
+}
+
+p {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a img {
+    display: block;
+    margin: 0 auto;
+}
+
+#frm-verification {
+    border: #E0E0E0 1px solid;
+    border-radius: 3px;
+    padding: 30px;
+    text-align: center;
+}
+
+.form-box {
+    border: #E0E0E0 1px solid;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.form-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    margin-bottom: 30px;
+}
+
+.form-input {
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+    margin-bottom: 3px;
+}
+
+.btnSubmit {
+    background: #4cb7ff;
+    padding: 8px 20px;
+    /* border: #47abef 1px solid; */
+    border-radius: 3px;
+    width: 100%;
+    color: #FFF;
+    cursor: pointer;
+}
+.btnSubmit:disabled {
+    background: #ccc; /* สีเทาอ่อน */
+    cursor: default; /* เปลี่ยนเคอร์เซอร์เป็นค่าเริ่มต้น */
+}
+
+.btnVerify {
+    background: #4CAF50;
+    padding: 8px 20px;
+    /* border: #449e48 1px solid; */
+    border-radius: 3px;
+    width: 100%;
+    color: #FFF;
+    cursor: pointer;
+}
+.btnVerify:disabled {
+    background: #ccc; /* สีเทาอ่อน */
+    cursor: default; /* เปลี่ยนเคอร์เซอร์เป็นค่าเริ่มต้น */
+}
+
+.alert-danger{
+    color:#a94442;
+    background-color:#f2dede;
+    border-color:#ebccd1;
+    text-align: center;
+}
+
+.alert-success{
+    color:#3c763d;
+    background-color:#dff0d8;
+    border-color:#d6e9c6;
+    text-align: center;
+}
+
+.left {
+    float: left; /* ชิดซ้าย */
+}
+.right {
+    float: right; /* ชิดขวา */
+}
+.clear {
+    clear: both; /* ล้าง float */
+}
+
+.msg-box{
+    width: 350px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
