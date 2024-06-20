@@ -5,7 +5,7 @@ services:
     build: ./php 
     container_name: walkin-app
     volumes:
-      - ./walkin:/var/www/html   # Single volume named 'app'  
+      - ./app:/var/www/html   # Single volume named 'app'  
       - ./vendor:/usr/local/bin/vendor  # composer
       - ./php/php.ini:/usr/local/etc/php/php.ini  # แชร์ไฟล์ php.ini
     ports:
