@@ -361,7 +361,8 @@ CREATE TABLE `walkin_mooc` (
   `checkin1` timestamp NULL DEFAULT NULL,
   `checkin2` timestamp NULL DEFAULT NULL,
   `checkin3` timestamp NULL DEFAULT NULL,
-  `checkin4` timestamp NULL DEFAULT NULL
+  `checkin4` timestamp NULL DEFAULT NULL,
+  `remark` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 ALTER TABLE `walkin_mooc`
