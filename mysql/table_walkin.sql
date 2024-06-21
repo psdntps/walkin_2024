@@ -326,7 +326,8 @@ CREATE TABLE `walkin_student` (
   `updatedBy` varchar(50) DEFAULT NULL,
   `verificationCode` varchar(10) DEFAULT NULL,
   `verified` tinyint(1) NOT NULL DEFAULT 0 COMMENT '0=ยังไม่ยืนยัน, 1=ยืนยันแล้ว',
-  `remark` varchar(255) DEFAULT NULL
+  `remark` varchar(255) DEFAULT NULL,
+  `lastDate` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 ALTER TABLE `walkin_student`
